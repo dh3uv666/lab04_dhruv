@@ -3,7 +3,7 @@ class FlightTable:
         self.data = []
     
     def add_entry(self, p_id, process, start_time, priority):
-        self.data.append({'P_ID': p_id, 'Process': process, 'Start Time': start_time, 'Priority': priority})
+        self.data.append({'P_ID': p_id, 'Process': process, 'start Time': start_time, 'Priority': priority})
     
     def print_table(self):
         print("Flight Table:")
